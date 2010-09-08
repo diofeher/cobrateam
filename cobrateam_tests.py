@@ -15,6 +15,11 @@ class CobraTeamTestCase(unittest.TestCase):
     def test_staff(self):
         request= self.app.get('/staff')
         assert 'Team' in request.data
+        
+    def test_challenges(self):
+        request= self.app.get('/challenges')
+        assert 'challenges' in request.data
+
 
 if __name__ == '__main__':
     unittest.main()
