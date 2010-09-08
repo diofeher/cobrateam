@@ -4,11 +4,13 @@
 </head>
 <body>
     <div align=center>
-
-        <img src=/static/logo.png>
+      <img src="/static/logo.png"/>
        <br><br>
-       <a href=/staff>STAFF</a> | <a href=/challenges>CHALLENGES</a> | <a href=/contact>CONTACT</a>
-       <br>
+       <ul>
+         <li><a href=/staff>STAFF</a> |</li>
+         <li><a href=/challenges>CHALLENGES</a> |</li>
+         <li><a href=/contact>CONTACT</a></li>
+       </ul>
        {% block content %}{% endblock %}
     </div>
 </body>
