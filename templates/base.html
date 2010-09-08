@@ -1,9 +1,10 @@
 <html>
 <head>
-    <title>cobrateam website - cobrateam.info</title>
+    <title>CobraTeam website - CobraTeam.info</title>
+    <link rel="stylesheet" type="text/css" href="static/cobra.css">
 </head>
 <body>
-    <div align=center>
+    <div id="header">
       <img src="/static/logo.png"/>
        <br><br>
        <ul>
@@ -11,7 +12,12 @@
          <li><a href=/challenges>CHALLENGES</a> |</li>
          <li><a href=/contact>CONTACT</a></li>
        </ul>
-       {% block content %}{% endblock %}
+    </div>
+    <div id="content">
+      {% block content %}bunda{% endblock %}
+    </div>
+    <div id="footer">
+      2010 - CobraTeam
     </div>
 </body>
 </html>
