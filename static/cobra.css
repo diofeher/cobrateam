@@ -1,8 +1,13 @@
 * {
     text-decoration:none;
+    list-style:none;
     font-family: Georgia, Verdana, sans-serif;
 }
 
 #header{
     text-align:center;
+}
+
+#header ul li {
+    display:inline;
 }
